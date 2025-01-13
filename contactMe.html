@@ -1,0 +1,109 @@
+<!-- contactMe.html -->
+
+<!DOCTYPE html>
+<html>
+<title>Brendan Grady - Contact</title>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta description --> 
+    <meta name="description" content="Get in touch with Brendan Grady via the contact form."> 
+    <title>Contact - My Personal Website</title>
+</head>
+<body>
+    <table border="0" width="100%" cellpadding="10">
+        <tr>
+            <!-- Navigation Sidebar -->
+            <td width="10%" bgcolor="#d3d3d3">
+                <nav>
+                    <center>
+                        <h3>Navigation</h3>
+                        <table border="4" cellpadding="20" bgcolor="#f0f8ff">
+                            <!-- Links to other pages of the site -->
+                            <tr>
+                                <td><a href="index.html">Home</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="aboutMe.html">About Me</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="contactMe.html">Contact</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="myProjects.html">Projects</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="gallery.html">Gallery</a></td>
+                            </tr>
+                        </table>
+                        <!-- Extra spacing for balanced layout -->
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                        <br><br><br><br><br><br><br><br><br><br><br><br>
+                        
+                    </center>
+                </nav>
+            </td>
+            <!-- Main Content -->
+            <td width="90%" bgcolor="lightblue">
+                <center>
+                    <!-- Page Header -->
+                    <table border="10" width="100%" cellpadding="1" bgcolor="AliceBlue">
+                        <tr>
+                            <td>
+                                <center>
+                                <header>
+                                    <h1>Contact Me<br> </h1>
+                                </header>
+                                </center>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div id="main">
+                        <header>
+                            <br><br>
+                            <h2>Fill out the form to send me a message.</h2>
+                        </header>
+
+                        <!-- Contact Form -->
+                        <form action="mailto:brendan.grady@du.edu.com" method="GET">
+                            <table border="1" cellpadding="10" bgcolor="AliceBlue">
+                                <tr>
+                                    <!-- Name Input -->
+                                    <td><label for="name">Your Name:</label></td>
+                                    <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+                                </tr>
+                                <tr>
+                                    <!-- Email Input -->
+                                    <td><label for="email">Your Email:</label></td>
+                                    <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+                                </tr>
+                                <tr>
+                                    <!-- Subject Input -->
+                                    <td><label for="subject">Subject:</label></td>
+                                    <td><input type="text" id="subject" name="subject" placeholder="Subject of your message"></td>
+                                </tr>
+                                <tr>
+                                    <!-- Message Textarea -->
+                                    <td><label for="message">Your Message:</label></td>
+                                    <td><textarea id="message" name="message" rows="5" cols="30" placeholder="Write your message here"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <!-- Submit Button -->
+                                    <td colspan="2" align="center">
+                                        <button type="submit">Send Message</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                    <!-- Extra Spacing to reach the bottom of the screen -->
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br>
+
+                </center>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
